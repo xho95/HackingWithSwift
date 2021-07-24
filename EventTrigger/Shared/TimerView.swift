@@ -19,7 +19,7 @@ struct TimerView: View {
             .font(Font.system(.largeTitle, design: .monospaced))
             .onReceive(timer) { _ in
                 if isTimerRunning {
-                    timerString = String(format: "%.1f", (Date().timeIntervalSince(startTime)))
+                    timerString = String(format: "%.1f", Date().timeIntervalSince(startTime))
                 }
             }
             .onTapGesture {

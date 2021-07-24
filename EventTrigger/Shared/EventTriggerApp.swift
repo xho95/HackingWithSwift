@@ -12,7 +12,8 @@ struct EventTriggerApp: App {
     var body: some Scene {
         WindowGroup {
             //ContentView()
-            TimerView()
+            //TimerView()
+            IntervalTimerView()
         }
     }
 }
