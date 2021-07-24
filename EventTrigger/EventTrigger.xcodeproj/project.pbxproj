@@ -13,6 +13,8 @@
 		1631285726ABED60002C4C7F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1631284226ABED5C002C4C7F /* ContentView.swift */; };
 		1631285826ABED60002C4C7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1631284326ABED60002C4C7F /* Assets.xcassets */; };
 		1631285926ABED60002C4C7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1631284326ABED60002C4C7F /* Assets.xcassets */; };
+		1631286426ABF66E002C4C7F /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1631286326ABF66E002C4C7F /* TimerView.swift */; };
+		1631286526ABF66E002C4C7F /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1631286326ABF66E002C4C7F /* TimerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,7 @@
 		1631285226ABED60002C4C7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1631285326ABED60002C4C7F /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		1631286226ABEE5B002C4C7F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1631286326ABF66E002C4C7F /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,7 @@
 				1631284126ABED5C002C4C7F /* EventTriggerApp.swift */,
 				1631284226ABED5C002C4C7F /* ContentView.swift */,
 				1631284326ABED60002C4C7F /* Assets.xcassets */,
+				1631286326ABF66E002C4C7F /* TimerView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -189,6 +193,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1631286426ABF66E002C4C7F /* TimerView.swift in Sources */,
 				1631285626ABED60002C4C7F /* ContentView.swift in Sources */,
 				1631285426ABED60002C4C7F /* EventTriggerApp.swift in Sources */,
 			);
@@ -198,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1631286526ABF66E002C4C7F /* TimerView.swift in Sources */,
 				1631285726ABED60002C4C7F /* ContentView.swift in Sources */,
 				1631285526ABED60002C4C7F /* EventTriggerApp.swift in Sources */,
 			);

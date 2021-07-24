@@ -11,7 +11,8 @@ import SwiftUI
 struct EventTriggerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //ContentView()
+            TimerView()
         }
     }
 }
